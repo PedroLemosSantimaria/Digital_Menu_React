@@ -1,7 +1,7 @@
 {
   "name": "cardapio",
   "version": "0.1.0",
-  "homepage": "https://PedroLemosSantimaria.github.io/Digital_Menu_React",
+  "homepage": "https://pedrolemossantimaria.github.io/Digital_Menu_React/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
