@@ -1,0 +1,34 @@
+.photo{
+    text-align: center;
+    margin-left: 50px ;
+    
+}
+
+.productName{
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+    
+  }
+
+  .productPrice{
+    font-size: xx-large;
+    margin-left: 50px ;
+  }
+
+  .productDescription{
+    font-size: x-large;
+    margin-left: 50px ;
+    margin-right: 10px;
+  }
+
+  .photo {
+    max-width: 100%; /* Make the image responsive */
+    margin: 0 auto; /* Center the image horizontally */
+}
+.productDescription,
+.productPrice {
+    text-align: center;
+    margin: 10px; /* Adjust the margin as needed */
+}
+

@@ -1,0 +1,49 @@
+.productHeader {
+    display: flex;
+    align-items: center;
+  }
+  
+  .headerContentt {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .productLogo {
+    max-width: 50px;
+    margin-right: 20px;
+  }
+
+  .productName {
+    margin: 0;
+    text-align: center;
+    flex-grow: 1;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .productLogo {
+        margin-right: 0; /* Adjust the margin for smaller screens */
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 20px;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+  }
+
+  .back-button:hover {
+      background-color: #2980b9;
+  }
+
+  @media (max-width: 768px) {
+      .back-button {
+          font-size: 16px;
+      }
+  }
+}
